@@ -127,15 +127,12 @@ npm install express
 node index.js
 ```
 
-Environment variables, database connection string, and run scripts go here
-as they're introduced — don't pre-fill this before you need it.
+Environment variables, database connection string, and run scripts :
 
 ---
 
-## Notes / questions for mentor review
+## Notes / questions 
 
-Use this space to log things to bring back for review — schema drafts,
-"why is my redirect returning 404" type bugs, or design decisions you're
-unsure about.
+
 
 -
