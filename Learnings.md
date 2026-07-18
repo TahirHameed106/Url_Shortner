@@ -1,31 +1,59 @@
-#The pre reqs for this project are 
-## JAVASCRIPT 
-~
- Functions ,CallBack functions (async/await)
+# JavaScript Prerequisites for This Project
 
-lets start with the arrow functions first:
+## JavaScript
 
+### Functions
 
-The normal functions are written in the js like this 
+Normal functions in JavaScript are written like this:
 
-function square (n) {
-return n* n; 
+```javascript
+function square(n) {
+  return n * n;
 }
+```
 
-but but but 
+### Arrow Functions
 
-Arrow functions are written in this formate 
+Arrow functions are written in the following format.
 
-there are two returns types 
-    implicit return no {} no return keyword needed.
---- const square = n => n*n;
-    explicit return with bracess {} the return is must to be written. except it throws error of undefined
---- const square = n => { return n * n ; };
+There are **two types of return**:
 
- 
-~Promises -> to know the why await exists .
+#### 1. Implicit Return
 
+* No curly braces `{}` are used.
+* No `return` keyword is needed.
 
+```javascript
+const square = n => n * n;
+```
 
-~ DeStructuring and template literals -> uses when we trying to pull the data out.
+#### 2. Explicit Return
 
+* Curly braces `{}` are used.
+* The `return` keyword **must** be written; otherwise, the function returns `undefined`.
+
+```javascript
+const square = n => {
+  return n * n;
+};
+```
+
+---
+
+### Callback Functions
+
+* Callback functions
+
+---
+
+### Promises
+* `async` / `await`
+
+* Learn Promises first to understand **why `await` exists**.
+
+---
+
+### Destructuring & Template Literals
+
+* Used when we are trying to pull data out of objects or arrays.
+* Template literals help us create dynamic strings more cleanly.
