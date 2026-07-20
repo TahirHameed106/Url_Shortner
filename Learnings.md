@@ -39,6 +39,10 @@ const square = n => {
 ```
 
 ---
+### Clousers
+
+
+
 
 ### Callback Functions
 
