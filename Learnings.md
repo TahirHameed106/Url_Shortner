@@ -58,6 +58,8 @@ mine solution :
      return counter;
 }
 ```
+
+ The code inside of the Chiled function    retain the value in the memory . bug not the parent function in the nested function in clousers.
 ---
 
 ### Callback Functions
