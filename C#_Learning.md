@@ -99,6 +99,66 @@ when run — working through it live.
 
 ---
 
+### MyCODE
+---
+```C# Code:
+ // See https://aka.ms/new-console-template for more information
+class student
+{
+    public int rollnumber;
+    public string name;
+    public string Class;
+    public int age;
+
+    public void setStudent(int rollnum, string name, string Class, int age)
+    {
+
+        if (rollnum == 0 || rollnum > 0) { 
+        this.rollnumber = rollnum; }
+        else { Console.WriteLine("Their is no -ve Rollnumber"); }
+
+        this.name = name;
+        this.Class = Class;
+        
+            if (age >0 && age < 130)
+            {
+                this.age = age;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input in the age field");
+            }
+        
+    }
+
+    public string getStudent()
+    {
+        return "Roll Number: " + rollnumber + "\nName: " + name + "\nClass: " + Class + "\nAge: " + age;
+    }
+
+    public void displayStudent()
+    {
+        Console.WriteLine("Roll Number: " + rollnumber);
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Class: " + Class);
+        Console.WriteLine("Age: " + age);
+    }
+
+    public static void Main(string[] args)
+    {
+        student std1 = new student();
+        std1.setStudent(1, "Tahir", "Bse-56B", 33);
+        student std2 = new student();
+        std2.setStudent(232, "Ali", "bSe-88b", 33);
+        student display = new student();
+        Console.WriteLine("Result : \n"+std2.getStudent());    
+    }
+
+}
+
+```
+---
+
 ## Honest notes to self
 
 - I keep wanting to test small fragments instead of full programs — need to
